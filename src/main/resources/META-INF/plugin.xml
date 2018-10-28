@@ -1,0 +1,27 @@
+<idea-plugin>
+    <id>com.christeller.numbered-autocomplete</id>
+    <name>Plugin display name here</name>
+    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+    <description><![CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <!--<depends>com.intellij.modules.lang</depends>-->
+
+
+    <actions>
+        <action id="EditorIllustration" class="EditorIllustration" text="EditorIllustrationName" description="nah"/>
+
+        <action id="old.AddCaretBelowAction" class="old.AddCaretBelowAction" text="AddCaretBelowActionName"
+                description="AddCaretBelowActionDescription">
+            <add-to-group group-id="HelpMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="alt K"/>
+        </action>
+    </actions>
+
+    <!--<extensions defaultExtensionNs="com.intellij">-->
+        <!--<typedHandler implementation="old.KeystrokeDelegate"/>-->
+    <!--</extensions>-->
+</idea-plugin>
